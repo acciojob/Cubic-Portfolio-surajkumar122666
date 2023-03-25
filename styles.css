@@ -121,14 +121,14 @@ body {
   position: absolute;
   width: 300px;
   height: 300px;
-  background: slateblue;
+  background: skyblue;
   border-radius: 5px;
   text-align: center;
 
   border: 5px rgb(255, 255, 255) solid;
   letter-spacing: 3px;
   font-size: 22pt;
-  box-shadow: slateblue 0px 0px 10px;
+  box-shadow: skyblue 0px 0px 10px;
   animation: Build-up 0s 1 0s, infinite 20s color-switch 2s;
 }
 
@@ -158,11 +158,11 @@ body {
 
 .front {
   transform: rotateY(0deg) translateZ(150px);
-  background-color: #f8cc0f;
+  background-color: indigo;
 }
 .back {
   transform: rotateY(180deg) translateZ(150px);
-  background-color: #4db849;
+  background-color: #orange;
 }
 .right {
   transform: rotateY(90deg) translateZ(150px);
@@ -170,7 +170,7 @@ body {
 }
 .left {
   transform: rotateY(-90deg) translateZ(150px);
-  background-color: #ffa6a6;
+  background-color: purple;
 }
 .top {
   transform: rotateX(90deg) translateZ(150px);
